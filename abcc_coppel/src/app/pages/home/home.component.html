@@ -1,0 +1,153 @@
+<div class="container-fluid mt-5">
+  <mat-card class="bg-transparent">
+      <mat-card-title class="text-center">
+          Articulos
+      </mat-card-title>
+      <mat-card-subtitle class="text-center">
+          Home
+      </mat-card-subtitle>
+      <mat-card-content>
+          <input type="hidden" />
+          <form class="text-center" [formGroup]="formSku" (submit)="onSubmitFormSku()">
+              <mat-form-field appearance="fill">
+                  <mat-label>Sku</mat-label>
+                  <input [required]="true" formControlName="sku" matInput>
+              </mat-form-field>
+              <div>
+                  <button mat-button color="primary">Search</button>
+              </div>
+          </form>
+          <hr />
+          <div class="m-5">
+              <form [formGroup]="formArticulo" (submit)=saveArticulo()>
+
+                  <!--Nombre Articulo-->
+                  <mat-form-field appearance="fill">
+                      <mat-label>Nombre Articulo</mat-label>
+                      <input [required]="true" formControlName="nombreArticulo" matInput>
+                  </mat-form-field>
+
+                   <!--Marca-->
+                  <mat-form-field appearance="fill">
+                      <mat-label>Marca</mat-label>
+                      <input [required]="true" formControlName="marca" matInput>
+                  </mat-form-field>
+
+                   <!--Modelo-->
+                  <mat-form-field appearance="fill">
+                      <mat-label>Modelo</mat-label>
+                      <input [required]="true" formControlName="modelo" matInput>
+                  </mat-form-field>
+
+                  <!--Customer Group-->
+                  <!-- <mat-form-field>
+                      <mat-label>Customer Group</mat-label>
+                      <mat-select formControlName="customergroup" placeholder="Group *" name="customergroup"
+                          id="customergroup">
+                          <mat-option *ngFor="let group of groups" [value]="group.id">
+                              {{ group.description }}
+                          </mat-option>
+                      </mat-select>
+                      <mat-hint>This is a required field</mat-hint>
+                      <mat-error *ngIf="customerFormGroup.get('customergroup').invalid">Please, you must make a
+                          selection</mat-error>
+                  </mat-form-field> -->
+
+                  <!--Departamento-->
+                  <mat-form-field appearance="fill">
+                      <mat-label>Departemento</mat-label>
+                      <mat-select formControlName="idDepartamento">
+                          <mat-option *ngFor="let departamento of departamentos" [value]="departamento.id">
+                              {{ departamento.nombreDepartamento }}
+                            </mat-option>
+                      </mat-select>
+                  </mat-form-field>
+
+                  <!--Clase-->
+                  <mat-form-field appearance="fill">
+                      <mat-label>Clase</mat-label>
+                      <mat-select formControlName="idClase">
+                          <mat-option *ngFor="let clase of clases" [value]="clase.id">
+                            {{ clase.nombreClase }}
+                          </mat-option>
+                      </mat-select>
+                  </mat-form-field>
+
+                  <!--Familia-->
+                  <mat-form-field appearance="fill">
+                      <mat-label>Familia</mat-label>
+                      <mat-select formControlName="idFamilia">
+                          <mat-option *ngFor="let familia of familias" [value]="familia.id">
+                              {{ familia.nombreFamilia }}
+                            </mat-option>
+                      </mat-select>
+                  </mat-form-field>
+
+                  <!--Stock-->
+                  <mat-form-field appearance="fill">
+                      <mat-label>Stock</mat-label>
+                      <input [required]="true" formControlName="stock" matInput>
+                  </mat-form-field>
+
+                   <!--Cantidad-->
+                  <mat-form-field appearance="fill">
+                      <mat-label>Cantidad</mat-label>
+                      <input [required]="true" formControlName="cantidad" matInput>
+                  </mat-form-field>
+
+                  <!--Fecha Alta-->
+                  <!-- <mat-form-field appearance="fill">
+                    <mat-label>Fecha Alta</mat-label>
+                    <input readonly matInput formControlName="fechaAlta">
+                    <mat-hint>YYYY/MM/DD</mat-hint>
+                    <mat-datepicker-toggle matSuffix disabled></mat-datepicker-toggle>
+                  </mat-form-field> -->
+
+                  <!--Fecha Baja-->
+                  <!-- <mat-form-field appearance="fill">
+                    <mat-label>Fecha Baja</mat-label>
+                    <input matInput formControlName="fechaBaja">
+                    <mat-hint>YYYY/MM/DD</mat-hint>
+                    <mat-datepicker-toggle matSuffix disabled></mat-datepicker-toggle>
+                  </mat-form-field> -->
+
+                  <!--Fecha Alta-->
+
+                    <mat-form-field appearance="fill">
+                      <mat-label>Fecha Alta</mat-label>
+                      <input matInput [matDatepicker]="dp1" disabled [value]="formArticulo.get('fechaAlta')?.value">
+                      <mat-hint>MM/DD/YYYY</mat-hint>
+                      <mat-datepicker-toggle matSuffix [for]="dp1"></mat-datepicker-toggle>
+                      <mat-datepicker #dp1></mat-datepicker>
+                    </mat-form-field>
+
+
+                  <!--Fecha Baja-->
+                    <mat-form-field appearance="fill">
+                      <mat-label>Fecha Baja</mat-label>
+                      <input matInput [matDatepicker]="dp2" disabled [value]="formArticulo.get('fechaBaja')?.value">
+                      <mat-hint>MM/DD/YYYY</mat-hint>
+                      <mat-datepicker-toggle matSuffix [for]="dp2"></mat-datepicker-toggle>
+                      <mat-datepicker #dp2></mat-datepicker>
+                    </mat-form-field>
+
+                  <!--Descontinuado-->
+                  <mat-checkbox class="m-5" [checked]="formArticulo.get('descontinuado')?.value !== 0 ? true : false" [disabled]="true">Descontinuado</mat-checkbox>
+
+
+                  <div class="text-center">
+                      <button class="me-2" mat-button color="primary">Save</button>
+                      <button class="me-2" type="button" (click)="openModalDeleteArticulo()" mat-button color="danger">Delete</button>
+                      <button type="button" (click)="UpdateArticulo()" mat-button color="accent">Update</button>
+                  </div>
+              </form>
+
+          </div>
+      </mat-card-content>
+      <mat-card-footer class="text-center">
+          bavt
+      </mat-card-footer>
+  </mat-card>
+</div>
+
+<!-- articulo, marca, modelo -->

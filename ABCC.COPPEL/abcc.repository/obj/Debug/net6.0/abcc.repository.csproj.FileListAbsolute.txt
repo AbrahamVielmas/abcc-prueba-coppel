@@ -1,0 +1,15 @@
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\bin\Debug\net6.0\abcc.repository.deps.json
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\bin\Debug\net6.0\abcc.repository.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\bin\Debug\net6.0\ref\abcc.repository.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\bin\Debug\net6.0\abcc.repository.pdb
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\obj\Debug\net6.0\abcc.repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\obj\Debug\net6.0\abcc.repository.AssemblyInfoInputs.cache
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\obj\Debug\net6.0\abcc.repository.AssemblyInfo.cs
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\obj\Debug\net6.0\abcc.repository.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\obj\Debug\net6.0\abcc.repository.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\obj\Debug\net6.0\ref\abcc.repository.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\obj\Debug\net6.0\abcc.repository.pdb
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\bin\Debug\net6.0\abcc.domain.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\bin\Debug\net6.0\abcc.domain.pdb
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\obj\Debug\net6.0\abcc.repository.csproj.AssemblyReference.cache
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.repository\obj\Debug\net6.0\abcc.repository.csproj.CopyComplete

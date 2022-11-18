@@ -1,0 +1,11 @@
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\bin\Debug\net6.0\abcc.domain.deps.json
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\bin\Debug\net6.0\abcc.domain.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\bin\Debug\net6.0\ref\abcc.domain.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\bin\Debug\net6.0\abcc.domain.pdb
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\obj\Debug\net6.0\abcc.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\obj\Debug\net6.0\abcc.domain.AssemblyInfoInputs.cache
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\obj\Debug\net6.0\abcc.domain.AssemblyInfo.cs
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\obj\Debug\net6.0\abcc.domain.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\obj\Debug\net6.0\abcc.domain.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\obj\Debug\net6.0\ref\abcc.domain.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.domain\obj\Debug\net6.0\abcc.domain.pdb

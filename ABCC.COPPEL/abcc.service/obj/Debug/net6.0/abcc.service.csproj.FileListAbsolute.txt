@@ -1,0 +1,17 @@
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\bin\Debug\net6.0\abcc.service.deps.json
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\bin\Debug\net6.0\abcc.service.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\bin\Debug\net6.0\ref\abcc.service.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\bin\Debug\net6.0\abcc.service.pdb
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\obj\Debug\net6.0\abcc.service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\obj\Debug\net6.0\abcc.service.AssemblyInfoInputs.cache
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\obj\Debug\net6.0\abcc.service.AssemblyInfo.cs
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\obj\Debug\net6.0\abcc.service.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\obj\Debug\net6.0\abcc.service.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\obj\Debug\net6.0\ref\abcc.service.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\obj\Debug\net6.0\abcc.service.pdb
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\obj\Debug\net6.0\abcc.service.csproj.AssemblyReference.cache
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\bin\Debug\net6.0\abcc.domain.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\bin\Debug\net6.0\abcc.repository.dll
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\bin\Debug\net6.0\abcc.domain.pdb
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\bin\Debug\net6.0\abcc.repository.pdb
+C:\Users\Brandon\Desktop\ABCC.COPPEL\abcc.service\obj\Debug\net6.0\abcc.service.csproj.CopyComplete

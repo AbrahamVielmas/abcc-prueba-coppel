@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "be62e2ad-ebc5-45ff-8cdb-892c65f4c785": {
+      "ProjectGuid": "be62e2ad-ebc5-45ff-8cdb-892c65f4c785",
+      "DisplayName": "abcc.api",
+      "ColorIndex": 0
+    },
+    "e7f3dcd5-8ab1-4c3c-87eb-d0d2706ebf3c": {
+      "ProjectGuid": "e7f3dcd5-8ab1-4c3c-87eb-d0d2706ebf3c",
+      "DisplayName": "abcc.repository",
+      "ColorIndex": 1
+    },
+    "aadca6c7-ea62-450b-be0f-480dfe764fe6": {
+      "ProjectGuid": "aadca6c7-ea62-450b-be0f-480dfe764fe6",
+      "DisplayName": "abcc.service",
+      "ColorIndex": 2
+    },
+    "889773cc-46d2-44bf-8f92-41decd47571f": {
+      "ProjectGuid": "889773cc-46d2-44bf-8f92-41decd47571f",
+      "DisplayName": "abcc.domain",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
