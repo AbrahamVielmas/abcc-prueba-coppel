@@ -223,6 +223,15 @@ export class HomeComponent implements OnInit {
     })
   }
 
+  onChangeCantidad(e: any): void{
+    let value = e.target.value;
+    console.log({value});
+    if(value >= this.formArticulo.get('stock')?.value){
+      this.formArticulo.get('cantidad')?.setValue(0);
+      alert("La cantidad no puede ser mayor al stock");
+    }
+  }
+
   getDatos(): void{
     let sku = +this.formArticulo.get('sku')?.value;
     console.log(sku);

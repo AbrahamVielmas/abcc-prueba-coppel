@@ -92,7 +92,7 @@
                    <!--Cantidad-->
                   <mat-form-field appearance="fill">
                       <mat-label>Cantidad</mat-label>
-                      <input [required]="true" formControlName="cantidad" matInput>
+                      <input (change)="onChangeCantidad($event)" [required]="true" formControlName="cantidad" matInput>
                   </mat-form-field>
 
                   <!--Fecha Alta-->
